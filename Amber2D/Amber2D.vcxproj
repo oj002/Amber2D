@@ -154,6 +154,7 @@
     <ClCompile Include="Amber2D\Maths\vec2.cpp" />
     <ClCompile Include="Amber2D\Maths\vec3.cpp" />
     <ClCompile Include="Amber2D\Maths\vec4.cpp" />
+    <ClCompile Include="Amber2D\Window\Window.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -166,9 +167,10 @@
     <ClInclude Include="Amber2D\Maths\vec4.hpp" />
     <ClInclude Include="Amber2D\Utils\Clock.hpp" />
     <ClInclude Include="Amber2D\Utils\Macros.hpp" />
-    <ClInclude Include="Amber2D\Utils\Matrix.hpp" />
+    <ClInclude Include="Amber2D\Maths\matrix.hpp" />
     <ClInclude Include="Amber2D\Utils\PoolAllocator.hpp" />
     <ClInclude Include="Amber2D\Utils\Random.hpp" />
+    <ClInclude Include="Amber2D\Window\Window.hpp" />
     <ClInclude Include="Dependencies\GLFW_32\include\GLFW\glfw3.h" />
     <ClInclude Include="Dependencies\GLFW_32\include\GLFW\glfw3native.h" />
     <ClInclude Include="Dependencies\GLFW_64\include\GLFW\glfw3.h" />

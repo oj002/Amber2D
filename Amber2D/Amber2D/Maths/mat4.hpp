@@ -5,7 +5,8 @@
 namespace Amber2D
 {
 	struct mat4
-	{union
+	{
+		union
 		{
 			float elements[4 * 4];
 			vec4 columns[4];

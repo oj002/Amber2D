@@ -7,11 +7,11 @@
 namespace Amber
 {
 	template<typename T, size_t T_X, size_t T_Y, bool allocateOnStack = false>
-	class Matrix
+	class matrix
 	{
 	public: 
 
-		Matrix()
+		matrix()
 			:m_data(T_X * T_Y)
 		{
 		}

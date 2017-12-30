@@ -30,15 +30,15 @@
     <ClCompile Include="Amber2D\Maths\vec4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Amber2D\Window\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amber2D\Amber2D.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Amber2D\Utils\Clock.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Amber2D\Utils\Matrix.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Amber2D\Utils\PoolAllocator.hpp">
@@ -87,6 +87,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Amber2D\Maths\vec4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Amber2D\Maths\matrix.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Amber2D\Window\Window.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
