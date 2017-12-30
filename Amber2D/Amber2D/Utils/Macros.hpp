@@ -2,16 +2,24 @@
 #include <string>
 #include "Logger.hpp"
 
+#if __has_include(<Windows.h>)
+#include <Windows.h>
+#define setConsoleTextColor(color) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
+#else
+#define setConsoleTextColor(color) 
+#endif
+
 namespace Amber2D
 {
-	Logger::logError<std::string>("[Error] (" + errorCode + "): " + __FILE__ + ':' + __LINE__ + '\n')
+	
+
 	#ifdef _DEBUG
-
-	#define DEBUG_ERROR(errorCode) 	 << ; __debugbreak();
-
+	
+	#define DEBUG_ERROR(errorCode) 	setConsoleTextColor(12); std::cerr << "[Error] (" << errorCode << "): " << __FILE__ << ':' << __LINE__ << '\n'; setConsoleTextColor(15); __debugbreak();
+	
 	#define DEBUG_ASSERT(x, msg) if (!(x)) { DEBUG_ERROR(msg); }
-
-
+	
+	
 	#define GLCall(x) \
 	while (glGetError()){}\
 	x;\
