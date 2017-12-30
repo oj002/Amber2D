@@ -150,6 +150,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Amber2D\glad.c" />
     <ClCompile Include="Amber2D\Maths\mat4.cpp" />
     <ClCompile Include="Amber2D\Maths\vec2.cpp" />
     <ClCompile Include="Amber2D\Maths\vec3.cpp" />

@@ -33,6 +33,9 @@
     <ClCompile Include="Amber2D\Window\Window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Amber2D\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amber2D\Amber2D.hpp">

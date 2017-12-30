@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
-#include "Logger.hpp"
 
+#include <glad\glad.h>
+#include <GLFW\glfw3.h>
 #if __has_include(<Windows.h>)
 #include <Windows.h>
 #define setConsoleTextColor(color) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
