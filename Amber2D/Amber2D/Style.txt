@@ -1,0 +1,3 @@
+use m_ convention for member variables
+use p convention for pointers
+use s convention for static variables
