@@ -2,7 +2,7 @@
 #include <memory>
 #include "../utils.h"
 
-namespace Amber
+namespace Amber2D
 {
 	template<typename T>
 	union PoolChunk

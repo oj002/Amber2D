@@ -1,12 +1,12 @@
 #pragma once
 #include <chrono>
 
-namespace Amber
+namespace Amber2D
 {
-	class clock
+	class Clock
 	{
 	public:
-		clock()
+		Clock()
 			:m_start(std::chrono::steady_clock::now())
 		{
 

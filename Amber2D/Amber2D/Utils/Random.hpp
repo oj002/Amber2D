@@ -1,7 +1,7 @@
 #pragma once
 #include <random>
 
-namespace Amber
+namespace Amber2D
 {
 		class rng_mt19937_std
 		{
